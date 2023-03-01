@@ -1,0 +1,96 @@
+/* Set a background color for the body */
+body {
+background-color: #f5f5f5;
+}
+
+/* Style the input field and label */
+input[type="file"] {
+  display: block;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+/* Style the textarea */
+textarea {
+width: 100%;
+height: 200px;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
+font-size: 18px;
+resize: none;
+}
+
+/* Style the submit button */
+button {
+background-color: #0077cc;
+color: #fff;
+padding: 12px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+width: 100px;
+font-size: 18px;
+}
+
+/* Style the progress bar */
+#progress {
+width: 100%;
+height: 30px;
+background-color: #eee;
+border-radius: 5px;
+overflow: hidden;
+margin-top: 20px;
+}
+
+#progress-bar {
+height: 100%;
+background-color: #0077cc;
+width: 0%;
+text-align: center;
+color: #fff;
+font-weight: bold;
+transition: width 0.5s ease-in-out;
+}
+
+/* Style the progress bar status text */
+#progress-status {
+text-align: center;
+font-weight: bold;
+margin-top: 5px;
+}
+
+/* Style the header */
+header {
+text-align: center;
+background-color: #0077cc;
+color: #fff;
+padding: 20px 0;
+}
+
+/* Style the HEMDAR title */
+h1 {
+font-size: 48px;
+margin: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Style the tagline */
+h2 {
+font-size: 24px;
+margin: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-top: 10px;
+font-weight: normal;
+}
+
+/* Style the footer */
+footer {
+background-color: #eee;
+text-align: center;
+padding: 20px 0;
+margin-top: 50px;
+}

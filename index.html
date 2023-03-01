@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Title of the page -->
+  <title>Hemdar</title>
+
+  <!-- Description of the page -->
+  <meta name="description"
+    content="Use this tool to extract text from your images. Hemdar is a fast OCR tool that works entirely in your web browser using Tesseract.js. Simply upload your image file and let Hemdar do the rest.">
+
+  <!-- Keywords of the page -->
+  <meta name="keywords" content="Image OCR, Optical Character Recognition, Tesseract.js, Hemdar">
+
+  <!-- Author of the page -->
+  <meta name="author" content="Rishik Reddy">
+
+  <!-- Link to the stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <!-- Header of the page -->
+  <header>
+    <h1>HEMDAR</h1>
+    <h3>A simple OCR tool for extracting text from images using Tesseract.js</h3>
+  </header>
+
+  <!-- Input file element for image selection -->
+  <br />
+  <input type="file" id="input_image" name="input_image" />
+  <br />
+
+  <!-- Progress bar for showing OCR progress -->
+  <progress id="progress" value="0" max="100"></progress>
+  <p id="progress-status">Please select an Image to extract text using Tesseract.js</p>
+  <br />
+  <br />
+
+  <!-- Text area for displaying extracted text -->
+  <textarea id="image-text"></textarea>
+  <br /><br />
+
+  <!-- Button for copying the extracted text to clipboard -->
+  <button onclick="copyText()">Copy</button>
+
+  <!-- Footer of the page -->
+  <footer>
+    <!-- Description of the tool -->
+    <p>Hemdar is an OCR tool that works entirely in your web browser using Tesseract.js. Simply upload your image
+      file and let Hemdar do the rest.</a>
+    </p>
+
+    <!-- Link to the code on GitHub -->
+    <p>Code available on <a href="https://github.com/RISHIKREDDYL/Hemdar" target="_blank">GitHub</a></p>
+
+    <!-- Link to Tesseract.js website -->
+    <p>Powered by <a href="https://github.com/naptha/tesseract.js" target="_blank">Tesseract.js</a></p>
+
+    <!-- Creation details -->
+    <p>First Created on December 1, 2022 by <a href="https://rishikreddy.com/" target="_blank">Rishik Reddy</a></p>
+  </footer>
+
+  <!-- Script tags for loading Tesseract.js and our custom script -->
+  <script src='https://cdn.rawgit.com/naptha/tesseract.js/1.0.10/dist/tesseract.js'></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
